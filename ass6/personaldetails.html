@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <center>
+            <table cellspacing="0" cellpadding="20">
+                <tr>
+                    <td bgcolor=" #8EB288">Step1: Account</td> <br>
+                    <td bgcolor="lightblue">Step2: Personal Details</td>
+                    <td bgcolor="#D3D3D3">Step3: Your Review</td>
+                </tr>
+            </table>
+            <br>
+            <br>
+
+        </center>
+
+        <form method="get">
+            <fieldset name="Personal Details">
+                <legend> <b> Personal Details</b></legend>
+                <label for="name">
+                    First Name: <br>
+                    <input type="name" name placeholder="Enter First Name"
+                        size="60" /><br> <br>
+                </label>
+
+                <label for="name">
+                    Last Name: <br>
+                    <input type="name" name placeholder="Enter Last Name"
+                        size="60" /><br> <br>
+                </label>
+
+                <label>
+                    CNIC:<br>
+                    <input type="text"
+                        data-inputmask="'mask': '99999-9999999-9'"
+                        placeholder="XXXXX-XXXXXXX-X" name="cnic" required
+                        size="60"><br> <br>
+                </label>
+                <label for="url">
+                    Social Link:<br>
+                    <input type="url" name
+                        placeholder="Enter Facebook/LinkedIn Profile Link"
+                        size="60" /><br> <br>
+                </label>
+                <input type="image" src="Images/back.png" height="50"
+                    width="120" alt="back" />
+                <input type="image" src="Images/next.png" height="50"
+                    width="120" alt="next" />
+
+            </fieldset>
+
+        </form>
+
+    </body>
+</html>
